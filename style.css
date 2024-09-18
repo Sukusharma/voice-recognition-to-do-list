@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 1%, 15%, 0.94);
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    padding: 50px;
+    gap: 10%;
+
+
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+    color: aliceblue;
+
+}
+
+
+.heading #mike {
+    width: 3vw;
+
+}
+
+.input-section {
+    width: 100%;
+    height: 100%;
+    padding-left: 30%;
+
+}
+
+#taskinput {
+    font-size: 1.8vw;
+    font-weight: bolder;
+    height: 8vh;
+    padding: 2px 5px;
+    color: rgba(182, 208, 15, 0.954);
+}
+
+#taskInput {
+    font-size: 1.5vw;
+
+    height: 8vh;
+    padding: 2px 5px;
+    color: rgba(182, 168, 5, 0.954);
+}
+
+.input-section button {
+    padding: 10px 10px;
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background-color: rgba(242, 223, 14, 0.954);
+    cursor: pointer;
+
+}
+
+h2 {
+    font-size: 2vw;
+    color: white;
+    padding: 4% 20%;
+
+}
+
+#tasklist {
+    font-size: 2vw;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+
+
+
+}
+
+ul li {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(247, 223, 223, 0.327) 0px 18px 36px -18px inset;
+
+    padding-left: 0.5vw;
+
+
+
+}
+
+#deletebtn {
+    background-color: red;
+}
